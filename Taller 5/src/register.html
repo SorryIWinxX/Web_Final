@@ -1,4 +1,8 @@
-<html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +13,6 @@
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1c47b1910c.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
     <style>
         body {
             background-color: #303641;
@@ -39,7 +42,7 @@
                     <v class="material-icons">email</v>
                 </div>
                     
-                <input id="email" placeholder=" Email" type="text" class="validate" autocomplete="on" onkeyup="validateEmail()">
+                <input id="email" placeholder=" Email" type="email" class="validate" autocomplete="on" onkeyup="validateEmail()">
             </div>
 
             <div>
@@ -118,7 +121,7 @@
                 <div class="input-addon">
                     <v class="material-icons">vpn_key</v>
                 </div>
-                <input id="confirmPassword" placeholder="Confirm Password" type="password" class="validate" autocomplete="off">
+                <input id="confirmPassword" placeholder="Confirm Password" type="password" class="validate" autocomplete="on" onkeyup="confirmPass()">
             </div>
 
             </div>
@@ -142,6 +145,6 @@
         </div>
     </div>
 
+    <script src="app.js"></script>
 </body>
-
 </html>

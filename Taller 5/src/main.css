@@ -118,7 +118,7 @@ textarea {
 
 .input {
     margin: auto;
-    width: 240px;
+    width: auto;
     border-radius: 4px;
     background-color: #373b3d;
     padding: 8px 0px;
